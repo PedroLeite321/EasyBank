@@ -1,5 +1,80 @@
 @media only screen and (max-width: 599px) and (orientation: portrait) {
-    * {
+    .main__navbar__container { 
+        display:flex;
+        flex-direction: row;
         background-color:red;
+        width:100%;
+        min-height:75px;
+        max-height: 85px;
+        height:100%;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .position__checkbox {
+        position:relative;
+        left:91px;
+        padding:20px;
+        cursor:pointer;
+    }
+
+    .hide {
+        display:none;
+    }
+
+    .bars {
+        display:block;
+        width:30px;
+
+    }
+
+    .nav__wrapper {
+        display:none;
+        font-size:1.2em;
+        flex-direction:column;
+        min-height:100px;
+        max-height: 230px;
+        height:auto;
+        position:fixed;
+        right:0px;
+        top:120px;
+        background-color:red;
+        align-items: center;
+        width:auto;
+        padding:15px;
+        
+    }
+
+    .nav__icon {
+        margin-top:2px;
+        border-bottom:1px solid black;
+        width:100%;
+        text-align: center;
+    }
+    
+    .main__background {
+        min-height:300px;
+        max-height:375px;
+        height:auto;
+        width:100vw;
+        background-image: url('../../..//images/bg-intro-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .phone__pictures__area {
+        display:flex;
+        align-items: center;
+    }
+
+    .small__image {
+        position:relative;
+        bottom:6em;
+        width:400px;
+        overflow-y: scroll;
+        
     }
 }
