@@ -2,7 +2,6 @@
     .main__navbar__container { 
         display:flex;
         flex-direction: row;
-        background-color:red;
         width:100%;
         min-height:75px;
         max-height: 185px;
@@ -40,7 +39,6 @@
         height:auto;
         right:0px;
         top:120px;
-        background-color:red;
         align-items: center;
         width:auto;
         padding:15px;
@@ -55,35 +53,163 @@
         text-align: center;
     }
     
-    .main__background {
-        
-
-    }
-
     .phone__pictures__area {
         display:flex;
         min-height:100px;
         max-height:175px;
         height:auto;
         width:100vw;
-        background-color: aqua;
         background-image: url('../../..//images/bg-intro-mobile.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         align-items: center;
         justify-content: center;
-        min-height:360px;
+        min-height:20.5em;
         height:100%;
         width:100%;
+        overflow: hidden;
+        
+
     }
 
-    .small__image {
-        display:block;
+    .phone__image {
+        display:flex;
         position:static;
-        margin-bottom:11.2em;
-        width:350px;
+        margin-bottom:7.9em;
+        width:27em;
         
         
     }
+
+    .marketing__request__invite {
+        display:flex;               
+        flex-direction:column;
+        justify-content: space-around;
+        padding-left:1em;
+        padding-right:1em;
+        min-height: 700px;
+        max-height:750px;
+        height:100%;
+        text-align:left;
+        padding-top:3em;
+        padding-bottom:3em;
+    }
+
+    .main__page__title {
+        font-family: "Public Sans", "sans-serif";
+        text-align: center;
+        font-size: 2.9em;
+        line-height: 60.504px;
+        font-weight:300;
+        color: #242738;        
+
+    }
+
+    .main__paragraph {
+        text-align: center;
+        text-justify: distribute;
+        font-size:1.6em;
+        color: #5a5a5c
+        
+    }
+
+    .padding__dot__five {
+        font-size:43px;
+    }
+
+    .request__button {
+        background: rgb(37,207,97);
+        background: linear-gradient(37deg, rgb(25, 180, 79) 55%, rgba(43,184,212,1) 100%);
+        width:13em;
+        height:3.5em;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius:3em;
+        color:#ffff;
+        letter-spacing: 2px;
+        font-size:1.2em;
+
+    }
+
+    .promoting__first {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#fff;
+        height:400px;
+        text-align: center;
+
+    }
+
+    .first__titles {
+        font-size:2.4em;
+        padding:2.3em;
+        font-weight: 200;
+        color:#242738;
+
+    }
+
+    .first__paragraphs {
+        font-size:1.4em;
+        padding:1em;
+        color:#5a5a5c;
+
+    }
+
+    /* Defines main container color */
+
+    .gray__bg {
+        background-color:#eef0f6;
+        
+    }
+
+    /* Setup container configuration */
+
+    .container__setup {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        min-height:1300px;
+        max-height:1450px;
+        height:100%;
+        text-align: center;
+        
+    }
+    
+    /*General containers for promoting the brand */
+
+    .promoting__container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:2em 0em 2em 0em;
+        height:600px;
+
+    }
+
+    .sub__titles { 
+        color: #242738;
+        font-size:1.6em;        
+        font-weight: 400;
+        margin-top:1em;
+        
+
+    }
+
+    .sub__paragraphs {
+        padding:1em;
+        color: #5a5a5c;        
+        font-size:1.2em;
+        overflow: hidden;
+                
+    }
+
+
+
+
+
+
 }
