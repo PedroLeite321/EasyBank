@@ -283,8 +283,25 @@
 
     }
 
+    .contact__info__container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2D314E;
+        color:white;
+        padding:3em;
 
+    }
 
+    .contacts__nav__row {
+        background-color:aqua;
+        width:10em;
+        height:2em;
+        margin:3em;
+    }
+
+   
 
 
 
