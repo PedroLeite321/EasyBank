@@ -133,6 +133,14 @@
 
     }
 
+    .request__button:hover { 
+        font-size:1.21em;
+        background-color:blue;
+        
+        
+
+    }
+
     .promoting__first {
         display:flex;
         flex-direction:column;
