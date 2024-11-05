@@ -1,3 +1,90 @@
 @media only screen and (min-width: 1200px) {
+    .main__background {
+        background-color:#fff;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height:100px;
+              
+
+    }
+
+    .main__navbar__container {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width:80em;
+        padding:8em;
+
+
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .hover__animation:hover {
+        cursor:pointer;
+        
+    }
+
+    .request__button {
+        background: rgb(37,207,97);
+        background: linear-gradient(37deg, rgb(25, 180, 79) 55%, rgba(43,184,212,1) 100%);
+        width:12em;
+        height:2.5em;
+        border-radius:3em;
+        color:#ffff;
+        letter-spacing: 1px;
+        font-size:1.1em;
+
+    }
+
+    .nav__wrapper {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:32em;
+        margin-right:2em;
+        height:4em;
+              
+        
+    }
+
+    .border__bottom__green {
+        padding:1em;
+    }
+
+    .border__bottom__green:hover {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor:pointer;
+        height:100%;
+        width:fit-content;
+        animation: border__bottom__green__hover 1s ease-in-out forwards;
+        
+        
+    }
+
+    @keyframes border__bottom__green__hover {
+        from {
+            box-shadow: 0 0 0 0px #fff inset; 
+            border-radius:2px;
+        }
     
+        50% {
+            box-shadow: 0 -2px 0 0px #008000 inset; 
+            border-radius:6px;
+        }
+    
+        to {
+            box-shadow: 0 -4px 0 0px #01cc8f inset; 
+            border-radius:8px;
+        }
+    }   
+
+
 }

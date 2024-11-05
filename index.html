@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Easybank landing page</title>
   <!--Scripts-->
+  <script src="./assets/scripts/siteFunctionality/turnMyNavbarOnOff.js"></script>
   
   <!--Styles-->
   <link rel="stylesheet" href="./assets/styles/index.css">
@@ -33,7 +34,8 @@
 
   <section class="main__background">
     <nav class="main__navbar__container">
-      <picture>
+      
+      <picture class="navbar__sandwich">
          <img src="./images/logo.svg" alt="">
       </picture>
       <input type="button" id="check" class="position__checkbox hide">
@@ -41,12 +43,24 @@
         <img class="bars" src="./assets/icons/bars-svgrepo-com.svg" alt="">
       </label>
       <ul class="nav__wrapper" id="myLinks">
-        <li class="nav__icon">Home</li>
-        <li class="nav__icon">About</li>
-        <li class="nav__icon">Contact</li>
-        <li class="nav__icon">Blog</li>
-        <li class="nav__icon">Careers</li> 
+        <div class="border__bottom__green">
+          <li class="nav__icon hover__animation">Home</li>
+        </div>
+        <div class="border__bottom__green">
+          <li class="nav__icon hover__animation">About</li>
+        </div>
+        <div class="border__bottom__green">
+          <li class="nav__icon hover__animation">Contact</li>
+        </div>
+        <div class="border__bottom__green">
+          <li class="nav__icon hover__animation">Blog</li>
+        </div>
+        <div class="border__bottom__green">
+          <li class="nav__icon hover__animation">Careers</li> 
+        </div>
       </ul>
+
+      <input class="request__button mobile__button__hide" type="button" value="Request Invite">
     </nav>
   </section>
   <picture class="phone__pictures__area">

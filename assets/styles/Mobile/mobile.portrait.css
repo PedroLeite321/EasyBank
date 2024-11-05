@@ -365,4 +365,7 @@
 
     }
    
+    .mobile__button__hide {
+        display:none;
+    }
 }
