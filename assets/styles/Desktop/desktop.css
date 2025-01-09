@@ -98,4 +98,14 @@
 
     }
 
+    .phone__pictures__area {
+        display:flex;
+        align-items: center;
+        justify-items: center;
+        width:max-content;
+        padding:
+        background-color: aquamarine;
+
+    }
+
 }
