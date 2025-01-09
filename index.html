@@ -31,17 +31,20 @@
 
 </head>
 <body>
-
+<!--Main section to set the main background and scope of my code-->
   <section class="main__background">
+    <!--Navbar area || Area da barra de Navegação-->
     <nav class="main__navbar__container">
-      
+      <!--Navbar Logo-->
       <picture class="navbar__sandwich">
          <img src="./images/logo.svg" alt="">
       </picture>
+      <!--Input used in the mobile HTML as a dropdown to select links-->
       <input type="button" id="check" class="position__checkbox hide">
       <label for="open_menu">
         <img class="bars" src="./assets/icons/bars-svgrepo-com.svg" alt="">
       </label>
+      <!--PC/Desktop View Links-->
       <ul class="nav__wrapper" id="myLinks">
         <div class="border__bottom__green">
           <li class="nav__icon hover__animation">Home</li>
@@ -59,27 +62,34 @@
           <li class="nav__icon hover__animation">Careers</li> 
         </div>
       </ul>
-
+      
       <input class="request__button mobile__button__hide" type="button" value="Request Invite">
     </nav>
   </section>
-  <picture class="phone__pictures__area">
-    <img class="phone__image" src="./images/image-mockups.png" alt="image phones">
-  </picture>
-  <section class="easybank__content__container">
-    <section class="marketing__request__invite">
-      <h1 class="main__page__title">Next generation <span class="padding__dot__five">digital banking!!!</span></h1>
+
+  <!--Main content for flexing to vertial or horizontal. Switching between mobile and desktop-->
+  <section class="main-content-main">
+    <header class="header-wrapper">
       
-
-      <p class="main__paragraph">
-        Take your financial life online. Your Easybank account will be a one-stop-shop
-        for spending, saving, budgeting, investing, and much more.
+      <picture class="phone__pictures__area">
+        <img class="phone__image" src="./images/bg-intro-desktop.svg" alt="">
+        <!--<img class="phone__image" src="./images/image-mockups.png" alt="image phones">-->
         
-      </p>
-
-      <input class="request__button" type="button" value="Request Invite!!!!">
-
-    </section>
+        
+      </picture>
+      <section class="easybank__content__container">
+        <section class="marketing__request__invite">
+          <h1 class="main__page__title">Next generation <span class="padding__dot__five">digital banking!!!</span></h1>
+      
+          <p class="main__paragraph">
+            Take your financial life online. Your Easybank account will be a one-stop-shop
+            for spending, saving, budgeting, investing, and much more.
+      
+          </p>
+          <input class="request__button" type="button" value="Request Invite!!!!">
+        </section>
+        </section>
+    </header>
 
     <section class=" gray__bg promoting__first">
       <h2 class="first__titles">Why choose Easybank?</h2>
