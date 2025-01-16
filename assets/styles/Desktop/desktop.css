@@ -106,9 +106,10 @@
     .header-wrapper {
         display:flex;
         flex-direction:row-reverse;
+        overflow-y: hidden;
         background-color:red;
-        min-height:400px;
-        max-height:600px;
+        min-height:700px;
+        max-height:450px;
         width:100vw;
         height:100%;
         justify-content: space-evenly;
@@ -119,12 +120,11 @@
 
     .phone__pictures__area {
         display:flex;
+        overflow-y: hidden;
         justify-content: right;
         align-items: center;
-        min-height:300px;
-        width:100%;
-        max-width:1800px;
-        min-width:600px;
+        min-height:200px;
+        width:1300px;
         height:100%;
         background-color:blue;
         
@@ -132,28 +132,42 @@
     }
 
     .picture__desktop__image__container {
-        display:flex;
+        display: flex;
         position: relative;
-        width:900px;
-        height:100vh;
-        left:10%;
-        background-repeat: no-repeat;       
-        background-image: url("../../../images/bg-intro-desktop.svg");
-        background-size: cover;
-        background-position: left;   
-        
+        overflow-y: hidden;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-image: url(../../../images/bg-intro-desktop.svg);
+        background-size: 178%;
+        background-position: left;
+        bottom: 50px;
     }
 
  
     .phone__image {
         position:absolute;
-        width: 40em;
-        right:-4%;
+        width: 45em;
+        right:-10%;
         min-height:100px;
         max-height:900px;
         
-        
-        
+    }
+
+    .marketing__request__invite { 
+        display:flex;
+        align-items: right;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color:green;
+        height:25em;
+        padding:2em;
+
+
+    }
+
+    .main__page__title {
+        font-size: 3.2em;
     }
 
 }
