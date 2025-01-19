@@ -278,7 +278,9 @@
 
     }
 
-
+    .mobile_version {
+        display:none;
+    }
     
 
 }
