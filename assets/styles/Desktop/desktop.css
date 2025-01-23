@@ -145,9 +145,9 @@
     .phone__image {
         position:absolute;
         width: 45em;
-        right:-10%;
+        right:-7em;
         min-height:100px;
-        max-height:900px;
+        max-height:1200px;
         
     }
 
@@ -299,6 +299,16 @@
     .article__title {
         color:#000;
         font-weight:300
+
+    }
+    
+    .section__main__title {
+        font-weight:300;
+        font-size:2.5em;
+        color:#292b3b;
+        padding-top:1.5em;
+        padding-left:2.2em;
+
 
     }
 
