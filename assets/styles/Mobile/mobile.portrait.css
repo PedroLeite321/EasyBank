@@ -369,4 +369,9 @@
     .mobile__button__hide {
         display:none;
     }
+
+    .desktop_version {
+        display:none
+    }
+
 }
