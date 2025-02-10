@@ -44,6 +44,11 @@
 
     }
 
+    .request__button:hover {
+        background: rgb(130, 197, 153);
+        cursor:pointer;
+    }
+
     .nav__wrapper {
         display:flex;
         justify-content: space-around;
@@ -314,6 +319,8 @@
 
     .contact__info__container {
         display:flex;
+        padding:.5em;
+        width:100vw;
         justify-content: space-around;
         min-height:10em;
         align-items: center;
@@ -322,11 +329,21 @@
         color:white;
     }
 
+    .contact__info:hover {
+        text-shadow: 1px 0 0 rgb(255, 255, 255);
+        cursor:pointer;
+    }
+
     .logo__social__media__area {
         display:flex;
         flex-direction:column;
         gap:3em;
 
+    }
+
+    .icons__svg:hover {
+        transform: scale(1.2); /* Enlarges the image without affecting the layout */
+        
     }
 
     .contacts__nav__row__hero {
@@ -343,6 +360,7 @@
         row-gap:0.8em;
         letter-spacing: 0.1em;
         margin-right:32em;
+        margin-left:1.2em;
     }
 
     .confirmation_button_and_rights {
