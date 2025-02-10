@@ -374,4 +374,14 @@
         display:none
     }
 
+    .icons__svg:hover {
+        transform: scale(1.2); /* Enlarges the image without affecting the layout */
+        
+    }
+
+    .request__button:hover {
+        background: rgb(130, 197, 153);
+        cursor:pointer;
+    }
+
 }
