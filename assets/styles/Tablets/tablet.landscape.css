@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (max-width: 1279px) and (orientation: landscape) {
     
     .main__navbar__container { 
         display:flex;
@@ -6,6 +6,7 @@
         justify-content: space-around;
         align-items: center;
         min-width:100vw;
+        height:5em;
         
 
     }
@@ -41,9 +42,6 @@
         position:absolute;
         font-size:1.2em;
         flex-direction:column;
-        min-height:100px;
-        max-height: 230px;
-        height:auto;
         right:0px;
         top:120px;
         align-items: center;

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 599px) and (orientation: portrait) {
+@media only screen and (max-width: 699px) and (orientation: portrait) {
     .main__navbar__container { 
         display:flex;
         flex-direction: row;
