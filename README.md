@@ -12,4 +12,4 @@
 
 <h2>Como executar</h2>
 
-<p>Para executar o projeto basta clicar <a href="" target="_blank"><bold>aqui</bold></a></p>
+<p>Para executar o projeto basta clicar <a href="https://pedroleite321.github.io/EasyBank/" target="_blank"><bold>aqui</bold></a></p>
