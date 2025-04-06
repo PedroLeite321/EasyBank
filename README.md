@@ -9,3 +9,7 @@
   <li>Uso de CSS3 com uso de pseudo-classes</li>
   <li>Interação de javascript com a página</li>
 </ul>
+
+<h2>Como executar</h2>
+
+<p>Para executar o projeto basta clicar <a href="" target="_blank"><bold>aqui</bold></a></p>
